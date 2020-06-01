@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd5ce66e-1b24-43ec-b606-aaebe0d2f685" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1chGi5AFSSGIP2EwVywuGbWQM7K" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Kotori.zookeeper.zkclient.watcher" />
+      <recent name="com.Kotori.zookeeper.acl" />
+      <recent name="com.Kotori.zookeeper.watcher" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\54356\Desktop\Java\zookeeperDemo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestWatcher.test (1)">
+    <configuration name="TestAcl.testAcl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Kotori.zookeeper.origin.acl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Kotori.zookeeper.origin.acl" />
+      <option name="MAIN_CLASS_NAME" value="com.Kotori.zookeeper.origin.acl.TestAcl" />
+      <option name="METHOD_NAME" value="testAcl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCrud.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Kotori.zookeeper.zkclient.znode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Kotori.zookeeper.zkclient.znode" />
+      <option name="MAIN_CLASS_NAME" value="com.Kotori.zookeeper.zkclient.znode.TestCrud" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWatcher.deletePersistent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Kotori.zookeeper.origin.watcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Kotori.zookeeper.origin.watcher" />
+      <option name="MAIN_CLASS_NAME" value="com.Kotori.zookeeper.origin.watcher.TestWatcher" />
+      <option name="METHOD_NAME" value="deletePersistent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWatcher.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Kotori.zookeeper.zkclient.watcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Kotori.zookeeper.zkclient.watcher" />
+      <option name="MAIN_CLASS_NAME" value="com.Kotori.zookeeper.zkclient.watcher.TestWatcher" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWatcher.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Kotori.zookeeper.origin.watcher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Kotori.zookeeper.origin.watcher" />
+      <option name="MAIN_CLASS_NAME" value="com.Kotori.zookeeper.origin.watcher.TestWatcher" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestZnode.testPersistent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Kotori.zookeeper.znode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Kotori.zookeeper.znode" />
+      <option name="MAIN_CLASS_NAME" value="com.Kotori.zookeeper.znode.TestZnode" />
+      <option name="METHOD_NAME" value="testPersistent([Ljava.lang.String;)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestZookeeper.testPersistent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeperDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Kotori.zookeeper.TestZookeeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Kotori.zookeeper.TestZookeeper" />
+      <option name="MAIN_CLASS_NAME" value="com.Kotori.zookeeper.TestZookeeper.TestZookeeper" />
+      <option name="METHOD_NAME" value="testPersistent([Ljava.lang.String;)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestWatcher.test (1)" />
+        <item itemvalue="JUnit.TestCrud.test" />
+        <item itemvalue="JUnit.TestAcl.testAcl" />
+        <item itemvalue="JUnit.TestWatcher.test" />
+        <item itemvalue="JUnit.TestWatcher.deletePersistent" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd5ce66e-1b24-43ec-b606-aaebe0d2f685" name="Default Changelist" comment="" />
+      <created>1590973535180</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590973535180</updated>
+      <workItem from="1590973537703" duration="17898000" />
+      <workItem from="1590993952409" duration="2028000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Project_Structure" timestamp="1590973644453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590973644453" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1590989111720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590989111720" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1590993925378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590993925378" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1590993925377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590993925377" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1590993925377">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590993925377" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1590993925378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590993925378" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1590988466527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590988466527" />
+    <state x="334" y="214" key="new project wizard" timestamp="1590993920444">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590993920444" />
+  </component>
+</project>
