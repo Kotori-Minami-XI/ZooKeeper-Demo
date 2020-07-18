@@ -18,7 +18,7 @@ public class LockTest {
             try {
                 lock.Lock();
                 System.out.println(instanceName + "--抢到了锁"+ i++);
-                Thread.sleep(10000);
+                Thread.sleep(500);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } finally {

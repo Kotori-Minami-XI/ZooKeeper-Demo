@@ -20,11 +20,6 @@ public class ZookeeperLock implements Watcher {
         this.instanceName = instanceName;
         try {
             this.zooKeeper = new ZooKeeper(connectString, 10000, null);
-
-            if (null != zooKeeper.exists(targetNode, null)) {
-                zooKeeper.delete(targetNode, -1);
-            }
-
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -37,7 +32,7 @@ public class ZookeeperLock implements Watcher {
         // 获取锁失败了,陷入沉睡并用自旋锁检查,监听主节点的任何变动
         while (true) {
             //监听主节点的任何变动
-            //zooKeeper.exists(targetNode, this);
+            zooKeeper.exists(targetNode, this);
             System.out.println(instanceName+"抢锁失败");
 
             countDownLatch = new CountDownLatch(1);
@@ -54,14 +49,13 @@ public class ZookeeperLock implements Watcher {
             zooKeeper.create(targetNode, instanceName.getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.EPHEMERAL);
             return true;
         } catch (Exception e) {
-            e.printStackTrace();
             return false;
         }
     }
 
     public void unLock() {
         try {
-            System.out.println("unLock");
+            System.out.println(instanceName + "解锁");
             zooKeeper.delete(targetNode,-1);
         } catch (Exception e) {
             e.printStackTrace();
@@ -70,18 +64,9 @@ public class ZookeeperLock implements Watcher {
 
     @Override
     public void process(WatchedEvent watchedEvent) {
-        System.out.println(watchedEvent.getType()+"----------------"+watchedEvent.getPath());
         if (countDownLatch == null) {
             throw new NullPointerException("countDownLatch不能为空！");
         }
         countDownLatch.countDown();
-
-        try {
-            zooKeeper.exists(targetNode, this);
-        } catch (KeeperException e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 }
